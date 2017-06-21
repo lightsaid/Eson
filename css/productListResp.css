@@ -1,0 +1,200 @@
+@charset "utf-8"; 
+
+@media screen and (max-width: 1440px){
+	.nav .navbar li a {
+	    font-size: 1.8rem;
+	}
+	.banner .content span {
+	    font-size: 2rem;
+	}
+	.design ul li p {
+	    font-size: 1.6rem;
+	}
+	.design .readMore a {
+	    font-size: 1.6rem;
+	}
+	.newWatch a {
+	    font-size: 1.6rem;
+	}
+	.physical-store .store a {
+	    font-weight: 700;
+	}
+	.footing ul > li > a {
+	    font-size: 1.4rem;
+	}
+	.f_bottom .f_ul li {
+	    font-size: 1.4rem;
+	}
+}
+
+@media screen and (max-width: 1200px){
+	.nav .navbar li a {
+	    font-size: 1.6rem;
+	}
+	.banner .content span {
+	    font-size: 1.6rem;
+	}
+	.design ul li p {
+	    font-size: 1.4rem;
+	}
+	.f_bottom .f_ul li {
+	    padding: 10px 0;
+	}
+}
+
+@media screen and (max-width: 992px){
+	.inner {
+	    width: 92%;
+	}
+	.nav .navbar li a {
+	    font-size: 1.4rem;
+	}
+	.banner .content h2 {
+	    font-size: 2.8rem;
+	}
+	.banner .content span {
+	    font-size: 1.4rem;
+	}
+	.design h2 {
+	    font-size: 2.5rem;
+	}
+	.inner {
+	    width: 92%;
+	}
+	.design ul li p {
+	    font-size: 1.2rem;
+	}
+	.design .readMore a {
+	    font-size: 1.4rem;
+	}
+	.special-design .inner h2 {
+	    font-size: 2.8rem;
+	}
+	.special-design .inner p {
+	    font-size: 1.8rem;
+	}
+	#specialList .special-list ul > li:last-child {
+		display: none;
+	}
+	#specialList .special-list2 ul > li:first-child {
+	    display: none;
+	}
+	#specialList .special-list ul > li {
+	    width: 49.2%;
+	}
+	#specialList .special-list2 ul > li {
+	    width: 49.2%;
+	}
+	#specialList .border-line {
+	    border-right: 0;
+	}
+	.tansuo {
+	    margin-top: 30px;
+	}
+	.tan-fold h3 {
+	    font-size: 1.8rem;
+	}
+	.newWatch a {
+	    font-size: 1.4rem;
+	}
+	.physical-store .store h3 {
+	    font-size: 3rem;
+	}
+	a {
+	    font-weight: 600;
+	}
+	.footing ul > li > h4 {
+	    font-size: 1.4rem;
+	}
+	.footing ul > li > a {
+	    font-size: 1.3rem;
+	}
+	.f_bottom .f_ul li {
+	    font-size: 1.2rem;
+	}
+}
+
+@media screen and (max-width: 768px){
+	.banner .content h2 {
+	    font-size: 2rem;
+	}
+	.design ul > li+li{
+		display: none;
+	}
+	.design ul li {
+	    width: 80%;
+	    margin:0 10%;
+	}
+	#specialList .border-line {
+		display: none;
+	}
+	.special-design .inner h2 {
+	    font-size: 2rem;
+	    font-weight: 700;
+	}
+	.special-design .inner p {
+	    font-size: 1.5rem;
+	}
+	#specialList .special-list ul > li {
+	    width: 100%;
+	}
+	#specialList .special-list2{
+		display: none;
+	}
+	.special-design .inner div {
+		display: none;
+	}
+	.special-design .inner_c > img{
+		display: none;
+	}
+	.tan-fold {
+   		width: 20.05%;
+	}
+	.tan-fold h3 {
+	    font-size: 1.4rem;
+	}
+	.go-top {
+	    padding: 5px 20px;
+	    font-size: 1.4rem;
+	}
+	.footing ul {
+	    width: 30.667%;
+	}
+	.f_bottom {
+	    display: none;
+	}
+}
+
+@media screen and (max-width: 320px){
+	.banner .content h2 {
+	    font-size: 1.6rem;
+	}
+	.banner .content span {
+	    display: none;
+	}
+	.design h2 {
+	    font-size: 1.5rem;
+	}
+	.design .readMore {
+   	 	height: 64px;
+	}
+	.design .readMore p {
+	    margin-top: 5.5%;
+	}
+	.special-design .inner h2 {
+	    font-size: 1.8rem;
+	}
+	.special-design .inner div {
+		display: none;
+	}
+	.special-design .inner_c > img{
+		display: none;
+	}
+	.physical-store .store h3 {
+	    font-size: 1.6rem;
+	}
+	.physical-store .store a {
+		font-size: 1.2rem;
+	}
+	
+}

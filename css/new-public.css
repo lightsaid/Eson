@@ -1,0 +1,169 @@
+@charset "utf-8";
+
+/*
+*版心
+ */
+
+.inner{
+	width: 82%;
+	margin:0 auto;
+	/* border:1px solid pink; */
+}
+
+html{
+	font-size: 62.5%;
+}
+
+img{
+	max-width: 100%;
+	height: auto;
+}
+
+/*
+ *header头部start
+*/
+
+.logo{
+	width: 100%;
+	height: 140px;
+	padding-top: 15px;
+	text-align: center;
+}
+.nav{
+	width: 100%;
+	background: #363636;
+}
+.nav-Brand {
+	display: none;
+    background: #363636;
+    height: 40px;
+    border-bottom: 1px solid #424242;
+}
+.btn {
+    display: block;
+    text-align: center;
+    color: #fff;
+    border-radius: 4px;
+    float: right;
+    background-color: #fbc300;
+    text-transform: uppercase;
+    margin: 9px 15px 10px 0;
+    padding:5px 10px;
+}
+.nav .navbar{
+	width: 81.769%;
+	height: 40px;
+	margin:0 auto;
+}
+.nav .navbar li{
+	float: left;
+	width: 16.6666667%;
+	text-align: center;
+	line-height: 40px;
+}
+.nav .navbar li a{
+	display: block;
+	width: 78%;
+	height: 38px;
+	color: #fff;
+	font-size: 1.8rem;
+}
+.nav .navbar .select > a{
+	color: #966931;
+	border-bottom: 2px solid #fff;
+}
+
+.nav .navbar li a:hover{
+	color: #966931;
+	border-bottom: 2px solid #fff;
+}
+
+/*
+*	脚注部分start
+ */
+
+.footing{
+	margin-top: -0.5%;
+	background-color: #000;
+}
+.footing ul{
+	float: left;
+	width: 16.66667%;
+	height: auto;
+	text-align: center;
+	margin-top: 30px;
+	padding-bottom:30px ;
+}
+.footing  ul > li > h4{
+	font-size: 1.6rem;
+	color: #ccc;
+	margin-bottom: 15px;
+}
+.footing  ul > li > a {
+	font-size: 1.2rem;
+	color: #797979;
+}
+.f_bottom{
+	width: 100%;
+	height: 40px;
+	background-color: #1e1e1e;
+	color: #aaaaa7;
+}
+.f_bottom .inner{
+	width: 90%;
+}
+.f_bottom .inner .f_ul{
+	width: 99%;
+	margin:0 auto;
+}
+.f_bottom .f_ul li{
+	float: left;
+	width: 25%;
+	text-align: center;
+	font-size: 1rem;
+	padding: 15px 0;
+}
+
+
+/*媒介查询公共样式*/
+@media screen and (max-width: 768px){
+	.inner{
+		width: 100%;
+	}
+	.nav .navbar {
+		display: none;
+	    width: 100%;
+	}
+	.nav{
+		position: relative;
+	}
+	.nav-Brand {
+		display: block;
+	}
+	.navbar {
+		/*display: none;*/
+		float: none;
+		width: 100%;
+		position: absolute;
+		left: 0;
+		top: 43px;
+		background: #363636;
+		z-index: 10000;
+	}
+	.nav .navbar li{
+		float: none;
+		background: #363636;
+		width: 100%;
+		height: 30px;
+		line-height: 30px;
+		text-align: center;
+		font-size: 1.2rem;
+	}
+	.nav .navbar li a {
+	    width: 100%;
+	}
+	.nav .navbar li a:hover {
+	    text-decoration: none;
+	    border-bottom: none;
+	}
+}

@@ -1,0 +1,270 @@
+@charset "utf-8";
+
+@media screen and (max-width: 1440px){
+	.nav .navbar li a {
+	    font-size: 2.4rem;
+	}
+	.newWatch .new_top h6 a {
+	    font-size: 16px; 
+	}
+	.newWatch .new_pro p {
+		 font-size: 20px;
+	}
+	.female_watch .top .left p {
+	    font-size: 24px;
+	}
+	.footing ul > li > h4 {
+	    font-size: 2.2rem;
+	}
+	.footing ul > li > a {
+	    font-size: 1.8rem;
+	}
+	.f_bottom .f_ul li {
+	    font-size: 1.4rem;
+	}
+	.f_bottom .f_ul li:first-child {
+	    margin-left: 12%;
+	}
+}
+@media screen and (max-width: 1366px){
+	.nav .navbar li a {
+	    font-size: 1.8rem;
+	}
+	.newWatch .new_top h6 a {
+	    font-size: 16px;
+	}
+	.newWatch .new_pro p {
+		 font-size: 18px;
+	}
+	.female_watch .top .left p {
+	    font-size: 22px;
+	}
+	.footing ul > li > h4 {
+	    font-size: 2rem;
+	}
+	.footing ul > li > a {
+	    font-size: 1.6rem;
+	}
+	.f_bottom .f_ul li {
+	    font-size: 1.4rem;
+	}
+	.f_bottom .f_ul li:first-child {
+	    margin-left: 9%;
+	}
+}
+@media screen and (max-width: 1200px){
+	.newWatch .new_pro h2 {
+	    font-size: 7rem;
+	    font-family: "宋体";
+	}
+	.male_watch .male {
+	    margin-right: 1%;
+	}
+	.footing ul > li > h4 {
+	    font-size: 1.8rem;
+	}
+	.footing ul > li > a {
+	    font-size: 1.4rem;
+	}
+	.f_bottom .f_ul li {
+	    font-size: 1.2rem;
+	}
+	.f_bottom .f_ul li:first-child {
+	    margin-left: 9%;
+	}
+	.female_watch .top .left h2 {
+	    font-size: 40px;
+	}
+	.female_watch .top .left p {
+	    font-size: 18px;
+	}
+	.male_watch .male h2 {
+    font-size: 40px;
+	    padding-top: 125px;
+	}
+}
+@media screen and (max-width: 1024px){
+	.nav .navbar li a {
+	    font-size: 1.8rem;
+	}
+	.newWatch .new_top h6 a {
+	    font-size: 14px;
+	}
+	.newWatch .new_pro h2 {
+	    font-size: 6rem;
+	}
+	.look {
+	    height: 211px;
+	    margin-top: 50px;
+	}
+	.go_top {
+	    height: 50px;
+	}
+	.go_top a {
+		padding: 10px 20px;
+	    line-height: 15px;
+	}
+	.footing ul > li > h4 {
+	    font-size: 1.6rem;
+	}
+	.f_bottom .f_ul li:first-child {
+	    margin-left: 5%;
+	}
+}
+@media screen and (max-width: 992px){
+	.nav .navbar li a {
+	    font-size: 1.6rem;
+	}
+	.newWatch .new_top h6 a {
+	    font-size: 12px;
+	}
+	.newWatch .new_pro p {
+		 font-size: 16px;
+	}
+	.newWatch .new_pro h2 {
+	    font-size: 5rem;
+	}
+	.newWatch .new_top {
+	    height: 302px;
+	}
+	.female_watch .top .left h2 {
+	    font-size: 32px;
+	}
+	.uncommon h2 {
+	    font-size: 32px;
+	}
+	.male_watch .male h2 {
+	    font-size: 32px;
+	}
+	.look > p > a, .new_watch > p > a {
+	    padding: 14px 0 0 10%;
+	}
+	.new_watch_a > h2 {
+	    padding: 14% 0 0 10%;
+	}
+	.f_bottom .f_ul li:first-child {
+	    margin-left: 11%;
+	}
+	.f_bottom .f_ul li:last-child {
+	   display: none;
+	}
+	.watch_center .list > li:last-child {
+	   display: none;
+	}
+	.watch_center .list > li {
+	    width: 33.2%;
+	}
+	
+}
+@media screen and (max-width: 768px){
+	.nav .navbar {
+	   display: none;
+	}
+	.nav .navbar li a {
+	    font-size: 1.4rem;
+	}
+	.newWatch .new_pro h2 {
+	    font-size: 4rem;
+	}
+	.newWatch .new_pro h2 {
+	    padding-top: 4%;
+	}
+	.female_watch .top .left h2 {
+	    font-size: 24px;
+	}
+	.female_watch .top .left p {
+	    font-size: 14px;
+	}
+	.watch_center .list > li:nth-child(2)+li {
+	   display: none;
+	}
+	.watch_center .list > li {
+	   width: 49.5%;
+	}
+	.male_watch .male h2 {
+	    font-size: 24px;
+	}
+	.female_watch .inner {
+	    position: absolute;
+	    top: 12%;
+	    left: 0;
+	}
+	.female_watch .top{
+		width: 60%;
+		padding-left: 12%;
+
+	}
+	.male_watch .male {
+	    width: 40%;
+	   padding-left: 5%;
+	}
+	.male p {
+	    width: 80%;
+	}
+	.f_bottom{
+		display: none;
+	}
+}
+@media screen and (max-width: 640px){
+	.female_watch .top .left h2 {
+	    padding-top: 0;
+	}
+	.new_watch_a > h2 {
+	    padding: 8% 0 0 10%;
+	}
+	.new_watch {
+	    height: 160px;
+	}
+	.new_watch_a > h2 {
+	    padding: 9% 0 0 10%;
+	}
+
+	.look {
+	    height: 141px;
+	    margin-top: 20px;
+	}
+	.go_top {
+	    height: 42px;
+	}
+	.uncommon h2 {
+	    font-size: 26px;
+	    padding-top: 24%;
+	}
+	.watch_center .list > li:nth-child(2) {
+	   display: none;
+	}
+	.watch_center .list > li {
+	    width: 100%;
+	}
+	.footing ul > li > h4 {
+	    font-size: 1.2rem;
+	}
+	.footing ul > li > a {
+	    font-size: 1.2rem;
+	}
+}
+@media screen and (max-width: 480px){
+	.newWatch .new_pro h2 {
+	    font-size: 3.2rem;
+	}
+	.newWatch .new_pro h2 {
+	    padding-top: 11%;
+	}
+	.newWatch .new_top {
+	    height: 282px;
+	}
+	.female_watch .top .left p {
+	    display: none;
+	}
+	.female_watch .top .left h2 {
+	    font-size: 22px;
+	    padding-top:30px;
+	}
+	.uncommon h2 {
+	    font-size: 22px;
+	}
+	.footing ul {
+	    width: 32.667%;
+	}
+
+}

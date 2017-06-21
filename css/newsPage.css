@@ -1,0 +1,84 @@
+@charset "utf-8";
+
+.banner {
+	background-color: #000;
+
+}
+.banner .inner h3{
+	padding-top:15px;
+}
+.banner .inner h3 a{
+	color: #fff;
+}
+.banner .inner h2{
+	width: 36%;
+	color: #fff;
+	font-size: 3rem;
+	text-align: center;
+	margin: 5% auto;
+	padding: 2% 0;
+	border-top: 2px solid #fff;
+	border-bottom: 2px solid #fff;
+}
+
+.banner .content div.left{
+	float: left;
+	width: 57.25%;
+	text-align: center;
+}
+.banner .content div.right{
+	width: 38.25%;
+	float: right;
+	/* border:1px solid pink; */
+	color: #fff;
+	padding-top: 1%;
+}
+.banner .content{
+	padding-bottom: 5%;
+}
+.content div.right p{
+	font-size: 1.4rem;
+	color: #7b7b7b;
+}
+.content div.right h3{
+	font-size: 3rem;
+	font-weight: 500;
+}
+.content div.right span{
+	display: inline-block;
+	font-size: 1.4rem;
+	line-height: 20px;
+	color: #7b7b7b;
+	margin-top: 2%;
+}
+.content div.right i a{
+	display: inline-block;
+	padding-top: 4%;
+	font-style: normal;
+	font-size: 1.6rem;
+	color: orange;
+}
+.content-first{
+	padding-top: 3.2%;
+}
+.newsList{
+	background-color: #f7f6f7;
+}
+.newsList .right p{
+	color:#858585; 
+}
+.newsList .right h3{
+	color: #000;
+}
+.newsList .right span{
+	color: #515151;
+}
+.newsList .inner{
+	position: relative;
+}
+.new-top{
+	position: absolute;
+	top:-11px;
+	left:50%;
+	padding-left: -26px;
+}
